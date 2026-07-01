@@ -24,3 +24,19 @@ if (!requireNamespace("remotes", quietly = TRUE)) {
 
 # Install pcsclr from the cloud repository
 remotes::install_github("https://github.com/obulezi12345-svg/pcsclr")
+
+# Computational Architecture
+
+The underlying architecture relies on a hybrid design to optimize memory allocation and computational speeds:
+* R Interface: Handles user inputs, input validations, configuration setups, and method dispatching.
+* C++ Core Engine: Evaluates joint-likelihood structures and structural boundary constraints ($[S(T_{max})]^{R^*}$) inside highly tightly bound update loops to completely eliminate R expression evaluator execution overhead during heavy sampling profiles.
+
+
+
+# Contact & Citation
+
+Author: Dr. Okechukwu J. Obulezi  
+Department: Department of Statistics, Nnamdi Azikiwe University, Awka, Nigeria  
+Email: [oj.obulezi@unizik.edu.ng](mailto:oj.obulezi@unizik.edu.ng)  
+
+Note: If you utilize this framework or package code profiles within academic publications, please cite the corresponding research paper referencing this implementation.
